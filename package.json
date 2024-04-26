@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "install": "node ./scripts/download-requires.js",
-    "commit-and-tag": "sh ./scripts/git-commit-tag-push.sh"
+    "commit-and-push": "sh ./scripts/git-commit-push.sh",
+    "commit-tag-and-push": "sh ./scripts/git-commit-tag-push.sh"
   },
   "repository": {
     "type": "git",
