@@ -16,7 +16,7 @@ git commit -m "$TIMESTAMP"
 git push origin master
 
 # Tag the current commit with the version
-git tag -f "v$VERSION"
+git tag -f "$VERSION"
 
 # Push the tag to the remote repository
-git push origin "v$VERSION"
+git push origin "$VERSION"
