@@ -1,0 +1,30 @@
+{
+  "name": "google-search-extended",
+  "version": "0.2.17",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node ./scripts/download-requires.js",
+    "commit-and-tag": "sh ./scripts/git-commit-tag-push.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/93Akkord/google-search-extended.git"
+  },
+  "author": "Michael Barros <michaelcbarros@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/93Akkord/google-search-extended/issues"
+  },
+  "homepage": "https://github.com/93Akkord/google-search-extended",
+  "devDependencies": {
+    "@types/tampermonkey": "^5.0.2",
+    "arrive": "^2.4.1",
+    "escape-string-regexp": "^5.0.0",
+    "jquery": "^3.2.1",
+    "node-fetch": "^3.3.2",
+    "replace-ext": "^2.0.0",
+    "userscript-meta-f4w": "^1.0.2"
+  },
+  "type": "module"
+}
