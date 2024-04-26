@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        google-search-extended
 // @namespace   https://openuserjs.org/users/93Akkord
-// @version     0.2.18
+// @version     0.2.19
 // @description Google Search Extended
 // @license     MIT
 // @author      93Akkord
